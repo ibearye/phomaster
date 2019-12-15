@@ -22,7 +22,6 @@ $this->need('header.php');
         <?php $this->pageLink('Load More','next'); ?>
     </div>
     <script src="<?php $this->options->themeUrl('static/js/grids.js'); ?>"></script>
-    <script src="<?php $this->options->themeUrl('static/js/loading.js'); ?>"></script>
 
     <script>
         var macy = Macy({
